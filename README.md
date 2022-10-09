@@ -5,5 +5,5 @@ Asuswrt when double NAT'd can not really be used for automatic DDNS. There's a b
 The service can be installed on Windows & Linux.
 
 Original bash script for Asuswrt-Merlin/DD-WRT/OpenWRT:
--https://github.com/BigNerd95/ASUSddns
+- https://github.com/BigNerd95/ASUSddns
 
