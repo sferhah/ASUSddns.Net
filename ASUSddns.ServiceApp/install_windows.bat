@@ -1,0 +1,1 @@
+srvman.exe add "ASUSddns.ServiceApp.exe" "ASUSddns.Net" "ASUSddns.Net" /start:auto && srvman.exe start "ASUSddns.Net"

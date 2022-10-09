@@ -1,0 +1,6 @@
+sudo systemctl stop ASUSddns.ServiceApp
+sudo systemctl disable ASUSddns.ServiceApp
+sudo rm /etc/systemd/system/ASUSddns.ServiceApp.service
+sudo rm -r /usr/sbin/ASUSddns/
+sudo systemctl daemon-reload
+sudo systemctl reset-failed

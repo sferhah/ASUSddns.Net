@@ -1,0 +1,8 @@
+sudo mkdir /usr/sbin/ASUSddns/
+sudo cp * /usr/sbin/ASUSddns/
+sudo chmod o+rx /usr/sbin/ASUSddns/ASUSddns.ServiceApp
+sudo mv /usr/sbin/ASUSddns/ASUSddns.ServiceApp.service /etc/systemd/system/ASUSddns.ServiceApp.service
+sudo systemctl daemon-reload
+sudo systemctl enable ASUSddns.ServiceApp
+sudo systemctl start ASUSddns.ServiceApp
+

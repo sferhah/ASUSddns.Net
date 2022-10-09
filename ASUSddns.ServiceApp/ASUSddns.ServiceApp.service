@@ -1,0 +1,10 @@
+[Unit]
+Description=ASUSddns.Net
+
+[Service]
+Type=notify
+ExecStart=/usr/sbin/ASUSddns/ASUSddns.ServiceApp
+WorkingDirectory=/usr/sbin/ASUSddns
+
+[Install]
+WantedBy=multi-user.target

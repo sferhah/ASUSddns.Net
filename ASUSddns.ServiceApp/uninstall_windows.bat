@@ -1,0 +1,1 @@
+srvman.exe stop "ASUSddns.Net" && srvman.exe delete "ASUSddns.Net"
